@@ -1,4 +1,8 @@
 # AppKids
+
+CREDENCIALES: Nombre:juan
+animales: gato, perro, caballo
+
 ![Imagen1](https://user-images.githubusercontent.com/87151125/136338494-b79a6284-4cc4-4c4e-8ad0-5051d388bbbb.png)
 
 Soy Yohaldry Quintero y quiero dejar pautas importantes
