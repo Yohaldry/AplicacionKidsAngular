@@ -1,0 +1,27 @@
+<div class="container_Principal">
+    <div class="login">
+        <label>¿Como es tu numbre?</label>
+        <input onkeyup="this.value=this.value.toLowerCase()" type="text" [formControl]="nameCtrl" placeholder="Nombre">
+     <div class="animalesSeleccionados">
+        <h3>{{animal1}}</h3>
+        <h3>{{animal2}}</h3>
+        <h3>{{animal3}}</h3>
+    </div>
+        <hr>
+        <h1>Debes elejir tus 3 animales favoritos</h1>
+        
+        <div class="botones">
+        <button class="bg-danger" (click)="gato()"><i class="fas fa-cat"></i></button>
+        <button class="bg-warning" (click)="error()"><i class="fas fa-spider"></i></button>
+        <button class="bg-primary" (click)="error()"><i class="fas fa-crow"></i></button>
+        <button class="bg-success" (click)="error()"><i class="fas fa-dove"></i></button>
+        <button class="bg-info" (click)="error()"><i class="fas fa-fish"></i></button>
+        <button class="bg-success" (click)="error()"><i class="fas fa-frog"></i></button>
+        <button class="bg-cyan-800" (click)="caballo()"><i class="fas fa-horse"></i></button>
+        <button class="bg-dark" (click)="error()"><i class="fas fa-kiwi-bird"></i></button>
+        <button (click)="perro()"><i class="fas fa-dog"></i></button>
+        <button class="bg-dark" (click)="error()"><i class="fas fa-hippo"></i></button>
+    </div>
+    <button (click)="getName($event)" class="BotonListo">Listo</button>
+    </div>
+</div>

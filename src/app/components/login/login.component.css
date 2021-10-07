@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+.container_Principal{
+
+    width: 100%;
+    padding-top: 60px;
+    height: 619px;
+    background: linear-gradient(45deg, #030894, #E73C7E);
+}
+.login{
+
+    width: 45%;
+    display: grid;
+    height: 80vh;
+    margin-left: 400px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px 10px;
+}
+
+.login label{
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.login input{
+
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    font-size: 27px;
+    width: 400px;
+    padding-left: 20px;
+    height: 50px;
+    margin-left: 150px;
+    font-family: 'Gluten', cursive;
+    border: 5px solid rgb(99, 0, 238);
+}
+
+.botones{
+
+    display: grid;
+    gap: 0.5em;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 40px 40px 40px 40px;
+}
+
+.botones button{
+    border-radius: 30px;
+    height: 15vh;
+    width: 15vh;
+    font-size: 50px;
+    background-color: rgb(155, 92, 199);
+    color: white;
+    border: none;
+    transition: 0.5;
+}
+.BotonListo{
+
+    margin-top: -30px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(136, 136, 136);
+    width: 540px;
+    margin-left: 70px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-size: 25px;
+    font-family: 'Gluten', cursive;
+}
+
+.BotonListo:hover{
+
+    background-color: green;
+    color: white;
+}
+
+.botones button:hover{
+
+    color: rgb(255, 255, 255);
+    border: 7px solid rgb(13, 140, 1);
+    transition: 0.5s;
+}
+
+.login h1{
+
+    font-family: 'Gluten', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.animalesSeleccionados{
+
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.animalesSeleccionados h3{
+
+    background-color: rgb(30, 158, 4);
+    border-radius: 40px;
+    width: 150px;
+    color: white;
+   margin-left: 30px;
+    text-align: center;
+}
