@@ -1,27 +1,23 @@
-# Kids
+# AppKids
+![Imagen1](https://user-images.githubusercontent.com/87151125/136338494-b79a6284-4cc4-4c4e-8ad0-5051d388bbbb.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+Soy Yohaldry Quintero y quiero dejar pautas importantes
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1) dependencias como tal utilice la de npm install sweetalert2 para realizar las alertas 
 
-## Code scaffolding
+2) la estructura esta conformada por 2 componentes una para el HEADER "Cabecera" y LOGIN para el contenido en el cual se ha distribuido los botones para la validacion de los animales y la verificacion del nombre
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3) Por los momentos es mi primera vez programando en ANGULAR y no me dio tiempo de colocar los botones de manera aleatoria
 
-## Build
+4)la validación del nombre de usuario como en los requerimientos no pedian base de datos lo realice de manera local con la funcion de FormControl de manera que al darle click al boton listo el valida que lo que se ingreso en el input sela lo mismo que esta establesido en el TS, tambien le coloque al input para que solo se introduzcan letras minuscola para que no se presente ningun error.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Tambien tiene sus respectivas validaciones por si el campo esta vacio o si se introduce un nombre incorrecto
 
-## Running unit tests
+5)si se desea que la lista de íconos aparezca en una ventana modal se debe instalar las dependencias del modal y establecer los valores
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+6)Un Bundle es un paquete, que puede contener cualquier cosa: Código de programación. Ficheros de configuración, Plantillas.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Quiero dejar muy claro que es mi primera vez programando en ANGULAR, trate de investigar y entrar en contexto, creo que me desenvolvi muy bien, mas sin embargo no pude culminar que los botones de los animales se cargaran de manera aleatoria ni la validacion de ellos de resto todo lo demas lo logre terminar, pero poder ser de su agrado y lograr resultados positivos, gracias
